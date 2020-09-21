@@ -1,0 +1,22 @@
+{
+    "version": "0.1.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Run example",
+            "program": "${workspaceFolder}/example/main.js",
+            "args": [
+                //"${workspaceFolder}/config/wmes-frontend.js"
+            ],
+            "env": {"DEBUG":"h5.main*"},
+        },
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "Attach",
+            "port": 9229
+        },
+        
+    ]
+}

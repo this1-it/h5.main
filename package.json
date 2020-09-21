@@ -1,0 +1,32 @@
+{
+  "name": "h5.main",
+  "version": "0.0.0",
+  "description": "Module starter for Node.js applications.",
+  "keywords": [
+    "h5",
+    "main",
+    "modules"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/this1-it/h5.main",
+  "author": {
+    "name": "tisone",
+    "email": "tisone@this1.it",
+    "url": "http://this1.it/"
+  },
+  "bugs": "https://github.com/this1-it/h5.main/issues",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/this1-it/h5.main.git"
+  },
+  "engine": [
+    "node >=0.8"
+  ],
+  "main": "./lib/index",
+  "dependencies": {
+    "h5.pubsub": "^0.1.0",
+    "h5.step": "^0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {}
+}
